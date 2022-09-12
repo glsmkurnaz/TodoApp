@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: aquamarine;
+}
+
+.inputContainer {
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+}
+.inputContainer input {
+  width: 300px;
+  padding: 5px 10px;
+  font-size: 18px;
+}
+.inputContainer button {
+  width: 50px;
+  cursor: pointer;
+}
+#todoList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.todoContainer {
+  width: 400px;
+  border: 1px solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
